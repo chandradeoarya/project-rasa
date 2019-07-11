@@ -1,13 +1,22 @@
-# create virtual envroment in conda
+## Rasa setup intallation guide
+
+create virtual envroment in conda
 $ conda create -n o activate
-# extract obot.zip 
+* extract obot.zip 
 $ unzip obot.zip
+
 $ cd obot
+
 $ pip install - requirements.txt
+
 $ pip install rasa
+
 $ pip install rasa[spacy]
+
 $ python -m spacy download en_core_web_md
+
 $ python -m spacy link en_core_web_md en
+
 $ pip install rasa-sdk
 $ cd model
 $ remove all available model 
