@@ -70,6 +70,6 @@ $ ./ngrock http 5002
 
 # click Add Bot User and subscribe 
 * app_mention
-* message.im
+* message.im 
 
 click * save change below in your webpage and enjoy chatting with slack-bot 
