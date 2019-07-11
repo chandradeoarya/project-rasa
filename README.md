@@ -20,10 +20,12 @@ $ python -m spacy link en_core_web_md en
 $ pip install rasa-sdk
 
 $ cd model
+$ ls
 
-$ remove all available model
+Remove all available model
 
 $ cd ..
+
 $ rasa train nlu
 
 $ rasa train core
@@ -34,11 +36,11 @@ $ rasa test
 
 * Goto https://api.slack.com and 
 
-**a. build app -> Name your bot ->select work station->press enter-> (This is dashboard of your bot )
+***a. build app -> Name your bot ->select work station->press enter-> (This is dashboard of your bot )
 
-**b. Click on bots ->Add bot User->Add Display name & Default Name->make it always online->Add bot User
+***b. Click on bots ->Add bot User->Add Display name & Default Name->make it always online->Add bot User
 
-**c. From left navigaton bar click OAuth & Permission ->copy User bot authentication
+***c. From left navigaton bar click OAuth & Permission ->copy User bot authentication
   
 ## Go to project directory 
 
