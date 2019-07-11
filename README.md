@@ -32,11 +32,13 @@ $ rasa test
 
 # To deploy rasa model in slack bot download ngrok and replace it with your file with authenticate token
 
-Goto https://api.slack.com and 
+* Goto https://api.slack.com and 
 
 **a. build app -> Name your bot ->select work station->press enter-> (This is dashboard of your bot )
-  b. Click on bots ->Add bot User->Add Display name & Default Name->make it always online->Add bot User
-  c. From left navigaton bar click OAuth & Permission ->copy User bot authentication
+
+**b. Click on bots ->Add bot User->Add Display name & Default Name->make it always online->Add bot User
+
+**c. From left navigaton bar click OAuth & Permission ->copy User bot authentication
   
 ## Go to project directory 
 
